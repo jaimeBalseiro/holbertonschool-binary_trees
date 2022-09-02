@@ -13,7 +13,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 
 	node = calloc(1, sizeof(binary_tree_t));
 
-	if(!node)
+	if (!node)
 		return (NULL);
 
 	node->parent = parent;
